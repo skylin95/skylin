@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/skylin.iml" filepath="$PROJECT_DIR$/skylin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skylin-commons/skylin-commons.iml" filepath="$PROJECT_DIR$/skylin-commons/skylin-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skylin-core/skylin-core.iml" filepath="$PROJECT_DIR$/skylin-core/skylin-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skylin-io/skylin-io.iml" filepath="$PROJECT_DIR$/skylin-io/skylin-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skylin-web/skylin-web.iml" filepath="$PROJECT_DIR$/skylin-web/skylin-web.iml" />
+    </modules>
+  </component>
+</project>
