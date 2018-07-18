@@ -9,11 +9,11 @@ import java.util.Arrays;
 /**
  * @author skylin
  * <P>CreateTime:2018-07-18 10:00:01</P>
- * <p>ÎÄ¼ş³£ÓÃ¹¤¾ß</p>
+ * <p>æ–‡ä»¶é€šç”¨å·¥å…·</p>
  */
 public class FileUtil {
     /**
-     * ÎÄ¼şÊÇ·ñ°üº¬UTF-8µÄBOMÍ·
+     * æ–‡ä»¶æ˜¯å¦åŒ…å«UTF-8BOMå¤´
      * @param fileBytes
      * @return
      */
@@ -30,7 +30,7 @@ public class FileUtil {
     }
 
     /**
-     * ÎÄ¼şÊÇ·ñ°üº¬UTF-8BOMÍ·
+     * æ–‡ä»¶æ˜¯å¦åŒ…å«UTF-8BOMå¤´
      * @param file
      * @return
      * @throws IOException
@@ -45,7 +45,7 @@ public class FileUtil {
     }
 
     /**
-     * ÒÆ³ıÎÄ¼şÖĞµÄUTF-8BOMÍ·
+     * ç§»é™¤æ–‡ä»¶UTF-8BOMå¤´
      * @param fileBytes
      * @return
      * @throws IOException
@@ -61,7 +61,7 @@ public class FileUtil {
     }
 
     /**
-     * ÒÆ³ıÎÄ¼şÖĞµÄUTF-8BOMÍ·
+     * ç§»é™¤æ–‡ä»¶UTF-8BOMå¤´
      * @param in
      * @return
      * @throws IOException
@@ -72,7 +72,7 @@ public class FileUtil {
     }
 
     /**
-     * ÒÆ³ıÎÄ¼şÖĞµÄUTF-8BOMÍ·
+     * ç§»é™¤æ–‡ä»¶UTF-8BOMå¤´
      * @param filePath
      * @return
      * @throws IOException
@@ -83,7 +83,7 @@ public class FileUtil {
     }
 
     /**
-     * ÒÆ³ıÎÄ¼ş¼ĞÏÂËùÓĞÎÄ¼şµÄUTF-8BOMÍ·
+     * ç§»é™¤æ–‡ä»¶å¤¹ä¸‹æ‰€æœ‰æ–‡ä»¶çš„UTF-8BOMå¤´
      * @param srcDir
      * @param trgtDir
      * @return
@@ -120,7 +120,7 @@ public class FileUtil {
                 byte[] trgtFileBytes = removeUtf8Bom(srcFileBytes);
                 saveBytes2File(trgtFileBytes, newFile, true);
 
-                System.out.println("|FilUtil ´¦ÀíÎÄ¼ş" + childFile.getAbsolutePath());
+                System.out.println("|FilUtil process file--" + childFile.getAbsolutePath());
             }
         }
 
@@ -128,7 +128,7 @@ public class FileUtil {
     }
 
     /**
-     * »ñÈ¡ÎÄ¼ş×Ö½ÚÊı×é
+     * è·å–æ–‡ä»¶å­—èŠ‚æ•°ç»„
      * @param in
      * @return
      * @throws IOException
@@ -159,7 +159,7 @@ public class FileUtil {
     }
 
     /**
-     * »ñÈ¡ÎÄ¼ş×Ö½ÚÊı×é
+     * è·å–æ–‡ä»¶å­—èŠ‚æ•°ç»„
      * @param filePath
      * @return
      * @throws IOException
@@ -174,7 +174,7 @@ public class FileUtil {
     }
 
     /**
-     * »ñÈ¡ÎÄ¼ş×Ö½ÚÊı×é
+     * è·å–æ–‡ä»¶å­—èŠ‚æ•°ç»„
      * @param file
      * @return
      * @throws IOException
@@ -202,7 +202,7 @@ public class FileUtil {
     }
 
     /**
-     * ±£´æÎÄ¼ş
+     * è·å–æ–‡ä»¶å­—èŠ‚æ•°ç»„
      * @param fileByets
      * @param file
      * @param createNew

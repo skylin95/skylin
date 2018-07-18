@@ -3,7 +3,7 @@ package com.skylin.commons.enums;
 /**
  * @author skylin
  * <p>CreateTime:2018-07-18 17:40</p>
- * <p>内置时间格式</p>
+ * <p>鍐呯疆鏃堕棿鏍煎紡</p>
  */
 public enum FormatTimePattern {
     DATE_WITH_NOTHING("yyyyMMdd"),

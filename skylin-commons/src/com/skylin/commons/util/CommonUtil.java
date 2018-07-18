@@ -9,11 +9,11 @@ import java.util.Calendar;
 /**
  * @author skylin
  * <p>CreateTime:2018-07-18 16:40:01</p>
- * <p>Í¨ÓÃ¹¤¾ß</p>
+ * <p>é€šç”¨å·¥å…·</p>
  */
 public class CommonUtil {
     /**
-     * ×Ö·û´ÜÊÇ·ñÎª¿Õ
+     * å­—ç¬¦ä¸²æ˜¯å¦ä¸ºç©º
      * @param text
      * @return
      */
@@ -22,7 +22,7 @@ public class CommonUtil {
     }
 
     /**
-     * »ñÈ¡Ö¸¶¨¸ñÊ½µÄÊ±¼ä
+     * è·å–æŒ‡å®šæ—¶é—´
      * @param calendar
      * @param pattern
      * @return
@@ -41,7 +41,7 @@ public class CommonUtil {
     }
 
     /**
-     * ½«Ö¸¶¨Ê±¼ä×Ö·û´®¸ñÊ½»¯ÎªÌØ¶¨¸ñÊ½
+     * å°†å­—ç¬¦ä¸²æ ¼å¼åŒ–ä¸ºç‰¹å®šæ ¼å¼
      * @param srcTime
      * @param srcPattern
      * @param trgtPattern
